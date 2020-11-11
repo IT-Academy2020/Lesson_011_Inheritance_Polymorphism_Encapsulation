@@ -4,9 +4,11 @@ namespace Inheritance
 {
     class DerivedClass : BaseClass
     {
-        public new void Method()
+        // Заміщення (приховування) методу базового класу.
+
+        public void Method()
         {
-            Console.WriteLine("Replaced method from DerivedClass");
+            Console.WriteLine("Method from DerivedClass");
         }
     }
 }

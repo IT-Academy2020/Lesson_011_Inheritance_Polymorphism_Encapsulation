@@ -33,8 +33,6 @@ namespace Inheritance
     {
         static void Main()
         {
-            Inheritance.BaseClass baseClass = new Inheritance.BaseClass();
-            Inheritance.
             ClassA instanceA = new ClassA();
             instanceA.Method1();
             instanceA.Method2();

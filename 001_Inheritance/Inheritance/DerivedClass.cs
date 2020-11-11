@@ -6,7 +6,7 @@ namespace Inheritance
     class DerivedClass : BaseClass
     {
         // Конструктор.
-         DerivedClass()
+        public DerivedClass()
         {
             // Змінюємо всі доступні поля успадковані від базового класу.
 

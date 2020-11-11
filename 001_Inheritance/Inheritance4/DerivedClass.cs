@@ -10,16 +10,14 @@ namespace Inheritance
         // Конструктор за замовчуванням.
         public DerivedClass()
         {
-            System.Console.WriteLine("DerivedClass ctor");
         }
 
         // Користувацький конструктор.
         // Викликається користувацький конструктор базового класу, при цьому не потрібно,
         // присвоювати значення, успадкованим членам в конструкторі похідного класу.
         public DerivedClass(int number1, int number2)
-            : base()
-        {
-            
+            : base(number1)
+        {            
             derivedField = number2;
         }
     }
