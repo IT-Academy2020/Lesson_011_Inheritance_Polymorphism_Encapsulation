@@ -3,7 +3,7 @@
 
 namespace Inheritance
 {
-    class BaseClass
+    public class BaseClass
     {
         // Поля
 

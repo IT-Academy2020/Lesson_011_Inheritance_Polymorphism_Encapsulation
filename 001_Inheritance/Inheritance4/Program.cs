@@ -8,10 +8,10 @@ namespace Inheritance
     {
         static void Main()
         {
-            DerivedClass instance = new DerivedClass(1, 2);
+            DerivedClass instance = new DerivedClass();
 
-            Console.WriteLine(instance.baseNumber);
-            Console.WriteLine(instance.derivedField);
+            //Console.WriteLine(instance.baseNumber);
+            //Console.WriteLine(instance.derivedField);
 
             // Delay.
             Console.ReadKey();

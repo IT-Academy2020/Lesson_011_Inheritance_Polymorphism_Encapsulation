@@ -10,6 +10,7 @@ namespace Inheritance
         // Конструктор за замовчуванням.
         public BaseClass() 
         {
+            System.Console.WriteLine("BaseClass ctor");
         }
 
         // Користувацький конструктор.
